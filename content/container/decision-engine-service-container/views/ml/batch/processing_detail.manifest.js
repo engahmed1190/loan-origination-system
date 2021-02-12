@@ -59,7 +59,7 @@ module.exports = {
       callbacks: [ 'func:window.setHeaders', 'func:window.filterDataSourceFile',  ],
       onFinish: 'render',
       pageData: {
-        title: 'DigiFi | Machine Learning',
+        title: 'BrainWise | Machine Learning',
         navLabel: 'Machine Learning',
       },
     },

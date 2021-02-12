@@ -52,7 +52,7 @@
 //       },
 //       'callbacks': [ 'func:window.globalBarSaveBtn', 'func:window.setHeaders', ],
 //       pageData: {
-//         title: 'DigiFi | Automated Processing',
+//         title: 'BrainWise | Automated Processing',
 //         navLabel: 'Automated Processing',
 //       },
 //       'onFinish': 'render',

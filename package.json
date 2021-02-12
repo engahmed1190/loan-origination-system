@@ -93,7 +93,7 @@
     "periodicjs.ext.dblogger": "10.6.3",
     "periodicjs.ext.dbseed": "10.3.0",
     "periodicjs.ext.oauth2client": "^8.0.0",
-    "periodicjs.ext.oauth2server": "10.5.21",
+    "periodicjs.ext.oauth2server": "^10.5.21",
     "periodicjs.ext.packagecloud": "5.1.0",
     "periodicjs.ext.passport": "^6.1.2",
     "periodicjs.ext.reactapp": "10.10.0",

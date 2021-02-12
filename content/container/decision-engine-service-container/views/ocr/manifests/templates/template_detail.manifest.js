@@ -36,7 +36,7 @@ module.exports = {
       callbacks: [ 'func:window.setHeaders',],
       onFinish: 'render',
       pageData: {
-        title: 'DigiFi | OCR Text Recognition',
+        title: 'BrainWise | OCR Text Recognition',
         navLabel: 'OCR Text Recognition',
       },
     },

@@ -239,7 +239,7 @@ module.exports = {
       callbacks: [],
       onFinish: 'render',
       pageData: {
-        title: 'DigiFi | Secure Document Upload',
+        title: 'BrainWise | Secure Document Upload',
         navLabel: 'Secure Document Upload',
       },
     },

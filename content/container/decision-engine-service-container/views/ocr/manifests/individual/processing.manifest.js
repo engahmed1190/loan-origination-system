@@ -30,7 +30,7 @@ module.exports = {
       },
       'callbacks': [ 'func:window.globalBarSaveBtn', 'func:window.setHeaders', 'func:window.filtertemplateFile' ],
       pageData: {
-        title: 'DigiFi | OCR Text Recognition',
+        title: 'BrainWise | OCR Text Recognition',
         navLabel: 'OCR Text Recognition',
       },
       'onFinish': 'render',

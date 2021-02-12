@@ -37,7 +37,7 @@ module.exports = {
       },
       'callbacks': [ 'func:window.globalBarSaveBtn', 'func:window.setHeaders', 'func:window.updateGlobalSearchBar' ],
       pageData: {
-        title: 'DigiFi | Machine Learning',
+        title: 'BrainWise | Machine Learning',
         navLabel: 'Machine Learning',
       },
       'onFinish': 'render',

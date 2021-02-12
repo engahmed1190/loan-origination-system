@@ -49,7 +49,7 @@
 //       callbacks: [ 'func:window.setHeaders', 'func:window.filterDataSourceFile',  ],
 //       onFinish: 'render',
 //       pageData: {
-//         title: 'DigiFi | Automated Processing',
+//         title: 'BrainWise | Automated Processing',
 //         navLabel: 'Automated Processing',
 //       },
 //     },

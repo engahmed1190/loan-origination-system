@@ -258,7 +258,7 @@
 //       'callbacks': [ 'func:window.setHeaders', 'func:window.updateGlobalSearchBar'],
 //       onFinish: 'render',
 //       pageData: {
-//         title: 'DigiFi | Machine Learning',
+//         title: 'BrainWise | Machine Learning',
 //         navLabel: 'Machine Learning',
 //       },
 //     },

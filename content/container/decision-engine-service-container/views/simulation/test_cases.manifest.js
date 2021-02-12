@@ -39,7 +39,7 @@
 //       callbacks: ['func:window.updateGlobalSearchBar', ],
 //       onFinish: 'render',
 //       pageData: {
-//         title: 'DigiFi | Automated Processing',
+//         title: 'BrainWise | Automated Processing',
 //         navLabel: 'Automated Processing',
 //       },
 //     },

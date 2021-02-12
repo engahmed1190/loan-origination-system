@@ -339,7 +339,7 @@ module.exports = {
       callbacks: [],
       onFinish: 'render',
       pageData: {
-        title: 'DigiFi |  My Account',
+        title: 'BrainWise |  My Account',
         navLabel: 'My Account',
       },
     },

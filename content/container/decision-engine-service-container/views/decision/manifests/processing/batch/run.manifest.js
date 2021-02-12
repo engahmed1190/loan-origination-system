@@ -39,7 +39,7 @@ module.exports = {
       callbacks: [ 'func:window.setHeaders', 'func:window.filterDataSourceFile',  ],
       onFinish: 'render',
       pageData: {
-        'title': 'DigiFi | Decision Engine',
+        'title': 'BrainWise | Decision Engine',
         'navLabel': 'Decision Engine',
       },
     },

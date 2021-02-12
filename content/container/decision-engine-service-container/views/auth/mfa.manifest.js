@@ -312,7 +312,7 @@ module.exports = {
       callbacks: [],
       'onFinish': 'render',
       'pageData':{
-        'title':'DigiFi | Multi-Factor Authentication',
+        'title':'BrainWise | Multi-Factor Authentication',
         'navLabel':'Multi-Factor Authentication',
       },
     },

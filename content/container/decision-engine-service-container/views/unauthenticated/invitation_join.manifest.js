@@ -21,7 +21,7 @@ module.exports = {
       callbacks: [],
       'onFinish': 'render',
       'pageData': {
-        'title': 'DigiFi | Invite',
+        'title': 'BrainWise | Invite',
         'navLabel': 'Invite',
       },
     },

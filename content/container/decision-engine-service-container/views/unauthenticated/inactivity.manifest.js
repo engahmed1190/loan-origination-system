@@ -73,7 +73,7 @@ module.exports = {
       callbacks: [],
       onFinish: 'render',
       pageData: {
-        title: 'DigiFi | Logged Out',
+        title: 'BrainWise | Logged Out',
         navLabel: 'Logged Out',
       },
     },

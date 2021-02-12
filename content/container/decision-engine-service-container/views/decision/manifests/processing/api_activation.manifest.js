@@ -58,7 +58,7 @@ module.exports = {
       callbacks: [ 'func:window.globalBarSaveBtn', 'func:window.setHeaders', ],
       onFinish: 'render',
       pageData: {
-        'title': 'DigiFi | Decision Engine',
+        'title': 'BrainWise | Decision Engine',
         'navLabel': 'Decision Engine',
       },
     },

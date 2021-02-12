@@ -99,7 +99,7 @@ function createModal(options) {
         },
         'callbacks': (pluralizedType === 'variables') ? ['func:window.dynamicModalHeight', 'func:window.hideVariableSystemName'] : ['func:window.dynamicModalHeight'],
         'pageData': {
-          'title': 'DigiFi | Decision Engine',
+          'title': 'BrainWise | Decision Engine',
           'navLabel': 'Decision Engine',
         },
         'onFinish': 'render',

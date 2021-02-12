@@ -7,7 +7,7 @@ module.exports = {
   'resources': {},
   'onFinish': 'render',
   'pageData':{
-    'title':'DigiFi | Login',
+    'title':'BrainWise | Login',
     'navLabel':'Login',
   },
 };

@@ -181,7 +181,7 @@
 //       },
 //       callbacks:['func:window.initStrategyIcons', ],
 //       'pageData': {
-//         'title': 'DigiFi | Strategy Overview',
+//         'title': 'BrainWise | Strategy Overview',
 //         'navLabel': 'Automation Management',
 //       },
 //       'onFinish': 'render',

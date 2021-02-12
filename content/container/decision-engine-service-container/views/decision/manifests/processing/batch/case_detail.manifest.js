@@ -51,7 +51,7 @@
 //       },
 //       'callbacks': [ 'func:window.globalBarSaveBtn', 'func:window.setHeaders', ],
 //       pageData: {
-//         'title': 'DigiFi | ML Rules Engine',
+//         'title': 'BrainWise | ML Rules Engine',
 //         'navLabel': 'ML Rules Engine',
 //       },
 //       'onFinish': 'render',

@@ -34,7 +34,7 @@ module.exports = {
       ],
       onFinish: 'render',
       pageData: {
-        title: 'DigiFi | Machine Learning',
+        title: 'BrainWise | Machine Learning',
         navLabel: 'Machine Learning',
       },
     },

@@ -39,7 +39,7 @@ module.exports = {
       callbacks: [],
       'onFinish': 'render',
       'pageData': {
-        'title': 'DigiFi | Dashboard',
+        'title': 'BrainWise | Dashboard',
         'navLabel': 'Dashboard',
       },
     },
@@ -73,7 +73,7 @@ module.exports = {
       callbacks: [],
       'onFinish': 'render',
       'pageData': {
-        'title': 'DigiFi | Dashboard',
+        'title': 'BrainWise | Dashboard',
         'navLabel': 'Dashboard',
       },
     },

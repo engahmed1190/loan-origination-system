@@ -269,7 +269,7 @@ module.exports = {
       },
       'callbacks': [ 'func:window.dynamicModalHeight' ],
       'pageData': {
-        'title': 'DigiFi | Decision Engine',
+        'title': 'BrainWise | Decision Engine',
         'navLabel': 'Decision Engine',
       },
       'onFinish': 'render',

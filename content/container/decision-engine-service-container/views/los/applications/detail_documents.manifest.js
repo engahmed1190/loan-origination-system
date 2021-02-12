@@ -412,7 +412,7 @@ module.exports = {
       callbacks: [ 'func:window.setHeaders', 'func:window.updateGlobalSearchBar', ],
       onFinish: 'render',
       pageData: {
-        title: 'DigiFi | Lending CRM',
+        title: 'BrainWise | Lending CRM',
         navLabel: 'Lending CRM',
       },
     },

@@ -189,7 +189,7 @@
 //       ],
 //       onFinish: 'render',
 //       pageData: {
-//         title: 'DigiFi | Artificial Intelligence',
+//         title: 'BrainWise | Artificial Intelligence',
 //         navLabel: 'Artificial Intelligence',
 //       },
 //     },

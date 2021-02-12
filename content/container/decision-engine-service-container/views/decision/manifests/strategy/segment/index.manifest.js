@@ -28,7 +28,7 @@ module.exports = {
       },
       callbacks: [ 'func:window.checkPopulationRulesExists' ],
       'pageData': {
-        'title': 'DigiFi | Decision Engine',
+        'title': 'BrainWise | Decision Engine',
         'navLabel': 'Decision Engine',
       },
       'onFinish': 'render',

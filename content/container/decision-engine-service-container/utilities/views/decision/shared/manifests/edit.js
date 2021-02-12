@@ -104,7 +104,7 @@ function edit(options) {
           },
         }, options.resources),
         'pageData': {
-          'title': 'DigiFi | Decision Engine',
+          'title': 'BrainWise | Decision Engine',
           'navLabel': 'Decision Engine',
         },
         'callbacks': ['func:window.globalBarSaveBtn'],

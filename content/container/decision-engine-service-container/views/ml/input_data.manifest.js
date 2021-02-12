@@ -31,7 +31,7 @@ module.exports = {
       'callbacks': ['func:window.setHeaders',],
       onFinish: 'render',
       pageData: {
-        title: 'DigiFi | Machine Learning',
+        title: 'BrainWise | Machine Learning',
         navLabel: 'Machine Learning',
       },
     },

@@ -16,7 +16,7 @@ module.exports = {
       callbacks: [],
       'onFinish': 'render',
       'pageData': {
-        'title': 'DigiFi | Reset Password',
+        'title': 'BrainWise | Reset Password',
         'navLabel': 'Reset Password',
       },
     },

@@ -50,7 +50,7 @@ module.exports = {
           },
         }, {
           component: 'span',
-          children: `, welcome to the ${THEMESETTINGS.company_name || 'Digifi'} Platform!`,
+          children: `, Welcome to the ${THEMESETTINGS.company_name || 'BrainWise'} Digital Lending Platform!`,
         }, 
         ],
       },
@@ -104,11 +104,11 @@ module.exports = {
             },
           },],
         }, {
-          title: 'DigiFi Support',
+          title: 'BrainWise Support',
           textContent: [{
-            name: 'Phone: 646.663.3392',
+            name: 'Phone: +202-3576247',
           }, {
-            name: 'Email: support@digifi.io',
+            name: 'Email: support@brainwise.me',
           },],
         },
         ]),],

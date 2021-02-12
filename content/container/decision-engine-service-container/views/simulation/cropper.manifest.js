@@ -277,7 +277,7 @@
 //         },
 //       },
 //       'pageData': {
-//         'title': 'DigiFi | Automation Management',
+//         'title': 'BrainWise | Automation Management',
 //         'navLabel': 'Automation Management',
 //       },
 //       'onFinish': 'render',

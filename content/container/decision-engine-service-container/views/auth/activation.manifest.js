@@ -345,7 +345,7 @@ module.exports = {
       callbacks: [],
       onFinish: 'render',
       pageData: {
-        'title': 'DigiFi | Home',
+        'title': 'BrainWise | Home',
         'navLabel': 'Home',
       },
     },

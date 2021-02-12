@@ -28,7 +28,7 @@ module.exports = {
       callbacks: [],
       'onFinish': 'render',
       'pageData': {
-        'title': 'DigiFi | Unsubscribe',
+        'title': 'BrainWise | Unsubscribe',
         'navLabel': 'Unsubscribe',
       },
     },

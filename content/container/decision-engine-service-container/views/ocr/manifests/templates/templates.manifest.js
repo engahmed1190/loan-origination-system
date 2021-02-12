@@ -229,7 +229,7 @@ module.exports = {
       'callbacks': 'func:window.updateGlobalSearchBar',
       onFinish: 'render',
       pageData: {
-        title: 'DigiFi | OCR Text Recognition',
+        title: 'BrainWise | OCR Text Recognition',
         navLabel: 'OCR Text Recognition',
       },
     },

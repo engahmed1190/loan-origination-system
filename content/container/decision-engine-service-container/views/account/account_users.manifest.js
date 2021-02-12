@@ -308,7 +308,7 @@
 //       callbacks: [],
 //       onFinish: 'render',
 //       pageData: {
-//         title: 'DigiFi | Company Settings',
+//         title: 'BrainWise | Company Settings',
 //         navLabel: 'Company Settings',
 //       },
 //     },

@@ -179,7 +179,7 @@
 //       callbacks: ['func:window.removeDisabledClassFromSwitch'],
 //       onFinish: 'render',
 //       pageData: {
-//         title: 'DigiFi | Company Settings',
+//         title: 'BrainWise | Company Settings',
 //         navLabel: 'Company Settings',
 //       },
 //     },
