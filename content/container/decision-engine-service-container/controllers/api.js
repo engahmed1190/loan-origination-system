@@ -859,6 +859,7 @@ function mlVariableCheck(req, res, next) {
   }
 }
 
+// Entry Point For Individual Strategy API
 function runApiProcessEngine(req, res, next) {
   req.controllerData = req.controllerData || {};
   let query = {};
@@ -873,6 +874,7 @@ function runApiProcessEngine(req, res, next) {
     })
     .then(results => {
       req.controllerData.creditEngineResponse = results;
+      logger.info('result output variable', results);
       return next();
     })
     .catch(err => {

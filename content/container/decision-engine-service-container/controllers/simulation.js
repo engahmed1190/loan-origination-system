@@ -1817,6 +1817,7 @@ async function generateDocumentCreationFile({ md, case_name, organization, user,
   }
 }
 
+// Entry Point For Individual Strategy
 async function runIndividualSimulation(req, res, next) {
   try {
     req.controllerData = req.controllerData || {};
@@ -1825,8 +1826,10 @@ async function runIndividualSimulation(req, res, next) {
     let credit_pipeline = req.controllerData.credit_pipeline;
     const Case = periodic.datas.get('standard_case');
     if (req.controllerData.testcase) {
+
       let result = await credit_pipeline(Object.assign({}, req.controllerData.testcase, { strategy_status: req.controllerData.strategy_status, }));
       result = formatSimulationResult(result);
+      logger.info('result output variable', result.output_variables);
       const module_order = result.processing_detail || [];
       const compiled_order = req.controllerData.compiled_order || [];
       const emailModule = [];

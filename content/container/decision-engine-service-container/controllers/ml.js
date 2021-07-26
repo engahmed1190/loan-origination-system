@@ -901,7 +901,15 @@ async function uploadOriginalFilesToS3(req, res, next) {
         let aws_container_name = periodic.settings.extensions[ 'periodicjs.ext.packagecloud' ].container.name;
         let trainingName = `${moment().format('YYYY-MM-DD_HH-mm')}_${data_source_system_name}_training.csv`;
         let testingName = `${moment().format('YYYY-MM-DD_HH-mm')}_${data_source_system_name}_testing.csv`;
-        let s3 = periodic.aws.s3;
+        let aws_configs = periodic.settings.extensions[ 'periodicjs.ext.packagecloud' ]
+        const AWS = require('aws-sdk');
+        //configuring the AWS environment
+        AWS.config.update({
+          accessKeyId: aws_configs.client.accessKeyId,
+          secretAccessKey: aws_configs.client.accessKey
+        });
+        let s3 = new AWS.S3();
+        // let s3 = periodic.aws.s3;
         let transformedTrainingCSV = [ csv_headers, ].concat(trainingDataRows).reduce(__createCSVString, '');
         let transformedTestingCSV = [ csv_headers, ].concat(testingDataRows).reduce(__createCSVString, '');
         var trainingParams = {

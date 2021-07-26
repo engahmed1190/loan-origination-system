@@ -773,6 +773,8 @@ function getModuleDropdowns(req, res, next) {
   // const TemplateDocument = periodic.datas.get('standard_templatedocument');
   let user = req.user;
   let organization = (user && user.association && user.association.organization) ? user.association.organization._id.toString() : 'organization';
+  logger.info('DataIntegration : ', DataIntegration.query({ query: { organization, status: 'active', }, limit: 100000, population: 'true' }));
+
   Promise.all([ MLModel.query({ query: { organization, status: 'complete', }, limit: 100000, population: 'true' }), DataIntegration.query({ query: { organization, status: 'active', }, limit: 100000, population: 'true' }), ])
     .then(([ mlmodels, dataintegration, ]) => {
       req.controllerData = req.controllerData || {};
